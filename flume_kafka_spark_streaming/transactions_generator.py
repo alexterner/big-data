@@ -13,7 +13,7 @@ stores = ["www.amazon.com", "www.ebay.com", "www.aliexpress.com", "www.buy.com",
 otime = datetime.datetime(2013, 10, 10)
 
 
-with open("transactions.log", "w") as f:
+with open("/tmp/transactions/transactions.log", "w") as f:
 
     for i in range(0, 50000000):
 
